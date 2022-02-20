@@ -1,0 +1,310 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+
+<body class="landing">
+	<header id="header" class="alt">
+
+		<h1><a href="https://120.110.112.106:22443/~astu9702/ASBS/index.php/home/index">AS線上租借平台</a></h1>
+		<nav id="nav">
+			<ul>
+				<li style="white-space: nowrap;">
+					<a href="https://120.110.112.106:22443/~astu9702/ASBS/index.php/home/login" class="button">登入</a> </li>
+				<li style="white-space: nowrap;">
+					<a href="https://120.110.112.106:22443/~astu9702/ASBS/index.php/home/register" class="button">註冊</a> </li>
+			</ul>
+		</nav>
+	</header>
+	<!--
+Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+	<link rel="stylesheet" href="%E7%B7%9A%E4%B8%8A%E7%A7%9F%E5%80%9F%E5%B9%B3%E5%8F%B0_files/font-awesome.css" <html="">
+
+	<title>線上租借平台</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="%E7%B7%9A%E4%B8%8A%E7%A7%9F%E5%80%9F%E5%B9%B3%E5%8F%B0_files/semantic.css">
+	<link rel="stylesheet" href="%E7%B7%9A%E4%B8%8A%E7%A7%9F%E5%80%9F%E5%B9%B3%E5%8F%B0_files/home.css">
+
+
+	<div id="page-wrapper">
+
+		<!-- Header -->
+
+
+		<!-- Banner -->
+		<section id="banner">
+			<h2>線上租借平台</h2>
+			<p>一個為您推薦最適合符合需求的場地平台</p>
+			<ul class="actions special">
+				<a href="https://120.110.112.106:22443/~astu9702/ASBS/index.php/home/login" class="button primary">登入</a>
+				<li><a href="#spaceInput" class="button">搜尋場地</a></li>
+			</ul>
+		</section>
+
+		<!-- Main -->
+		<section id="main" class="container">
+
+			<section class="box special" id="spaceInput">
+				<header class="major">
+					<h2>填入您的活動性質，
+						<br>
+						讓我們幫你找出最適合您的場地</h2>
+					<hr>
+					<form action="https://120.110.112.106:22443/~astu9702/ASBS/index.php/Space/getProperSpaceList" method="POST">
+						<div class="ui top attached tabular menu">
+							<a class="item active" data-tab="first" id="tab">一般搜尋</a>
+							<a class="item" data-tab="second" id="tab">進階搜尋</a>
+						</div>
+
+						<div class="ui bottom attached tab segment active" data-tab="first">
+
+
+							<div class="ui form">
+
+								<div class="four fields">
+
+									<div class="field">
+
+										<label>地點</label>
+										<select name="attrib">
+											<option value="" selected="selected"></option>
+											<option value="1"> 主顧樓 </option>
+											<option value="2">任垣樓</option>
+											<option value="3">靜安樓</option>
+											<option value="4">伯鐸樓</option>
+											<option value="5">格倫樓</option>
+											<option value="6">方濟樓</option>
+											<option value="7">思源樓</option>
+											<option value="8">不拘</option>
+
+										</select>
+									</div>
+									<div class="field">
+										<label>活動性質</label>
+										<select name="attrib">
+											<option value="" selected="selected"></option>
+											<option value="1"> 聚會 </option>
+											<option value="3"> 會議 </option>
+											<option value="7"> 課程講座 </option>
+											<option value="8"> 展覽 </option>
+											<option value="9"> 派對 </option>
+											<option value="10"> 表演 </option>
+										</select>
+									</div>
+									<div class="field">
+										<label>人數</label>
+										<input type="text" name="vacancy">
+									</div>
+									<div class="field">
+										<label>送出</label>
+										<button class="ui blue  basic labeled icon button" type="submit">
+											<i class="right arrow icon"></i>
+											去看看吧～
+										</button>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="ui bottom attached tab segment" data-tab="second">
+							<div class="ui form">
+
+								<div class="four fields">
+
+									<div class="field">
+
+										<label>地點</label>
+										<select name="attrib" >
+											<option value="" selected="selected"></option>
+											<option value="1"> 主顧樓 </option>
+											<option value="2">任垣樓</option>
+											<option value="3">靜安樓</option>
+											<option value="4">伯鐸樓</option>
+											<option value="5">格倫樓</option>
+											<option value="6">方濟樓</option>
+											<option value="7">思源樓</option>
+											<option value="8">不拘</option>
+
+										</select>
+									</div>
+									<div class="field">
+										<label>活動性質</label>
+										<select name="attrib">
+											<option value="" selected="selected"></option>
+											<option value="1"> 聚會 </option>
+											<option value="3"> 會議 </option>
+											<option value="7"> 課程講座 </option>
+											<option value="8"> 展覽 </option>
+											<option value="9"> 派對 </option>
+											<option value="10"> 表演 </option>
+										</select>
+									</div>
+
+									<div class="field">
+										<label>人數</label>
+										<input type="text" name="vacancy">
+									</div>
+
+
+									<div class="field">
+
+										</select>
+										<label>設備</label>
+										<select multiple="" name="" class="ui fluid search dropdown" id='device'>
+											<option value="" ></option>
+											<option value="10"><i class="video icon"></i>攝影機</option>
+											<option value="11"><i class="hdd icon"></i>投影機</option>
+											<option value="12"><i class="desktop icon"></i>螢幕</option>
+											<option value="13"><i class="microphone icon"></i>麥克風</option>
+											<option value="14"><i class="server icon"></i>DVD設備</option>
+											<option value="15"><i class="mobile icon"></i>音響設備</option>
+											<option value="16"><i class="wifi icon"></i>無線網路</option>
+											<option value="17"><i class="coffee icon"></i>飲料提供</option>
+											<option value="18"><i class="heart icon"></i>點心</option>
+											<option value="19"><i class="edit icon"></i>黑&白板心</option>
+											<option value="20"><i class="car icon"></i>停車場</option>
+
+										</select>
+
+
+									</div>
+
+									<div class="field">
+										<label>送出</label>
+										<button class="ui blue  basic labeled icon button" type="submit">
+											<i class="right arrow icon"></i>
+											去看看吧～
+										</button>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</form>
+
+
+	</div>
+
+
+
+
+
+
+	<div class=""></div>
+	</header>
+	</section>
+
+	<section class="box special features">
+		<div class="features-row">
+			<section>
+				<span class="icon major fa-heart accent2"></span>
+				<h3>聚餐</h3>
+
+			</section>
+			<section>
+				<span class="icon major fa-area-chart accent3"></span>
+				<h3>開會</h3>
+
+			</section>
+		</div>
+		<div class="features-row">
+			<section>
+				<span class="icon major fa-cloud accent4"></span>
+				<h3>共讀</h3>
+
+			</section>
+			<section>
+				<span class="icon major fa-lock accent5"></span>
+				<h3>研討課程</h3>
+
+			</section>
+		</div>
+	</section>
+
+	<div class="row">
+		<div class="col-6 col-12-narrower">
+
+			<section class="box special">
+				<h3>租借場地</h3>
+				<p>ASBS 是個提供場地租借的網頁平台，<br>幾分鐘內就可幫您找到適合的場地！</p>
+				<ul class="actions special">
+					<li><a href="#" class="button alt">更多場地</a></li>
+				</ul>
+			</section>
+
+		</div>
+		<div class="col-6 col-12-narrower">
+
+			<section class="box special">
+				<h3>成為場主</h3>
+				<p>快速註冊，就能出租你閒置已久的空間。<br>利用後台輕鬆管理，增加額外的收入！</p>
+				<ul class="actions special">
+					<li><a href="#" class="button alt">成為場主</a></li>
+				</ul>
+			</section>
+
+		</div>
+	</div>
+
+	</section>
+
+	<!-- CTA -->
+	<section id="cta">
+
+		<h2>訂閱我們</h2>
+		<p>之後開通寄信功能之後我們將會推薦給您優質的場地</p>
+
+		<form>
+			<div class="row gtr-50 gtr-uniform">
+				<div class="col-8 col-12-mobilep">
+					<input type="email" name="email" id="email" placeholder="好噢">
+				</div>
+				<div class="col-4 col-12-mobilep">
+					<input type="submit" value="給你" class="fit">
+				</div>
+			</div>
+		</form>
+
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+
+		<ul class="copyright">
+			<li>ASBS 場地租借</li>
+		</ul>
+	</footer>
+
+	</div>
+
+	<!-- Scripts -->
+
+
+	<script src="%E7%B7%9A%E4%B8%8A%E7%A7%9F%E5%80%9F%E5%B9%B3%E5%8F%B0_files/jquery_003.js"></script>
+	<script src="%E7%B7%9A%E4%B8%8A%E7%A7%9F%E5%80%9F%E5%B9%B3%E5%8F%B0_files/semantic.js"></script>
+	<script src="%E7%B7%9A%E4%B8%8A%E7%A7%9F%E5%80%9F%E5%B9%B3%E5%8F%B0_files/jquery_002.js"></script>
+	<script src="%E7%B7%9A%E4%B8%8A%E7%A7%9F%E5%80%9F%E5%B9%B3%E5%8F%B0_files/jquery.js"></script>
+	<script src="%E7%B7%9A%E4%B8%8A%E7%A7%9F%E5%80%9F%E5%B9%B3%E5%8F%B0_files/browser.js"></script>
+	<script src="%E7%B7%9A%E4%B8%8A%E7%A7%9F%E5%80%9F%E5%B9%B3%E5%8F%B0_files/breakpoints.js"></script>
+	<script src="%E7%B7%9A%E4%B8%8A%E7%A7%9F%E5%80%9F%E5%B9%B3%E5%8F%B0_files/util.js"></script>
+	<script src="%E7%B7%9A%E4%B8%8A%E7%A7%9F%E5%80%9F%E5%B9%B3%E5%8F%B0_files/home.js"></script>
+	<div id="navButton"><a href="#navPanel" class="toggle"></a></div>
+	<div id="navPanel">
+		<nav><a class="link depth-0" href="https://120.110.112.106:22443/~astu9702/ASBS/index.php/home/login"><span class="indent-0"></span>登入</a><a
+			 class="link depth-0" href="https://120.110.112.106:22443/~astu9702/ASBS/index.php/home/register"><span class="indent-0"></span>註冊</a></nav>
+	</div>
+	<script>
+		$('.menu #tab').tab();
+
+		$('#device').dropdown();
+	</script>
+</body>
+
+</html>
